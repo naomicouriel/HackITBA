@@ -17,12 +17,13 @@ model Example {
 }
 
 model User {
-  id         Int             @id @default(autoincrement())
-  name       String
-  email      String          @unique
-  role       String          @default("STUDENT") // valores posibles: "STUDENT" o "PROFESSOR"
-  courses    Course[]        @relation("ProfessorCourses")
-  answers    StudentAnswer[] @relation("StudentAnswers")
+  id             Int             @id @default(autoincrement())
+  name           String
+  email          String          @unique
+  role           String          @default("STUDENT") // valores posibles: "STUDENT" o "PROFESSOR"
+  courses        Course[]        @relation("ProfessorCourses")
+  answers        StudentAnswer[] @relation("StudentAnswers")
+  studentQuizzes StudentQuiz[]   // Relación a las asignaciones de quiz
 }
 
 
@@ -37,25 +38,32 @@ model Course {
 }
 
 model Quiz {
-  id        Int      @id @default(autoincrement())
-  threshold Int
-  module    String
-  course    Course   @relation(fields: [courseId], references: [id])
-  courseId  Int
-  questions Question[]
+  id             Int             @id @default(autoincrement())
+  threshold      Int
+  module         String
+  course         Course          @relation(fields: [courseId], references: [id])
+  courseId       Int
+  questions      Question[]
+  studentQuizzes StudentQuiz[]   // Relación a las asignaciones de quiz
 }
+
 
 
 model Question {
-  id               Int             @id @default(autoincrement())
+  id               Int       @id @default(autoincrement())
   question         String
   optionsJson      String
   correctAnswerKey String
-  answer           String          // respuesta completa, se puede duplicar el texto de la opción correcta si querés
-  quiz             Quiz            @relation(fields: [quizId], references: [id])
+  answer           String
+  quiz             Quiz      @relation(fields: [quizId], references: [id], onDelete: Cascade)
   quizId           Int
   responses        StudentAnswer[]
+
+  // Nuevo campo (opcional, si quieres vincular pregunta -> tópico)
+  topic           Topic?    @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  topicId         Int?
 }
+
 
 
 
@@ -75,6 +83,8 @@ model Topic {
   name      String
   course    Course  @relation(fields: [courseId], references: [id])
   courseId  Int
+  resumen   Resumen[]
+  questions Question[]
 }
 
 model Segment {
@@ -84,4 +94,27 @@ model Segment {
   text      String
   course    Course  @relation(fields: [courseId], references: [id])
   courseId  Int
+}
+
+model StudentQuiz {
+  id        Int    @id @default(autoincrement())
+  student   User   @relation(fields: [studentId], references: [id])
+  studentId Int
+  quiz      Quiz   @relation(fields: [quizId], references: [id], onDelete: Cascade)
+  quizId    Int
+  status    String @default("pending")
+}
+
+model Resumen {
+  id                 Int      @id @default(autoincrement())
+  topic              Topic    @relation(fields: [topicId], references: [id])
+  topicId            Int
+  summary            String
+  transcriptSegment  String
+  startTime          Float
+  endTime            Float
+  keyTerms           String?   // puedes guardar esto como JSON stringify
+  relatedTopics      String?   // igual, para "["temaRelacionado"]"
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
 }

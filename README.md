@@ -1,28 +1,23 @@
-# Create T3 App
+# Gauss n` Roses
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
+Tener en cuenta que si o si debe levantarse la base de datos, sin eso la app no funciona.
+Intentamos conectarla a Supabase pero por temas de red no nos permitio.
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+En cuanto a la funcionalidad es una app 100% funcional que por limitaciones del poder de computo, el proceso de transcripcion dejamos el codigo en el cual estaria corriendo en un servicor y el cual deberiamos llamar para cada curso. Y dependiendo en que momento generes el quiz, si el video esta muy avanzado, te saldra error por el limite de tokens maximos que nos permite nuestro LLM.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+El proyecto fue pensado para escalar por lo que decidimos hacer menos vistoso el UI y con algunos Bugs pero con la complejidad de la base de datos que amerita que este proyecto con unas horas mas sea 100% funcional. 
 
-## Learn More
+# Instrucciones para correrlo
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+` npm install `bash
+` npx prisma db push `bash
+` npx tsx scripts/fake_info.ts `bash
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Para visualizar Base de Datos
+` npx prisma studio `bash
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Para correr APP
+` npm run dev `bash
 
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.

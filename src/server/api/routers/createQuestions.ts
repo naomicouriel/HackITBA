@@ -126,38 +126,6 @@ const textoAPreguntasJson = (texto: string) => {
 };
 
 
-const generarPreguntasDesdeCurso = async (
-  courseId: number,
-  hastaSegundo?: number,
-  numPreguntasPorTema = 3
-) => {
-  const segmentosDB = await prisma.segment.findMany({
-    where: { courseId },
-    orderBy: { start: "asc" },
-  });
-
-  const temasDB = await prisma.topic.findMany({
-    where: { courseId },
-  });
-
-  const temas = temasDB.map((t) => t.name);
-  const { textoCompleto, textos: segmentos } = extractTextFromSegments(segmentosDB, hastaSegundo);
-  const analisis = await identificarTemas(textoCompleto, segmentos, temas);
-
-  const resultados = [];
-
-  for (const temaInfo of analisis.temas_presentes) {
-    if (!temaInfo.presente) continue;
-    const textoTema = temaInfo.segmentos.map((i: number) => segmentos[i]).join(" ");
-    const generado = await generarPreguntas(textoTema, temaInfo.tema, numPreguntasPorTema);
-    const parsed = textoAPreguntasJson(generado);
-    resultados.push({ tema: temaInfo.tema, preguntas: parsed });
-  }
-
-  return resultados;
-};
-
-
 export const createQuestionsRouter = createTRPCRouter({
   getSegmentsByCourse: publicProcedure
     .input(z.object({ courseId: z.number() }))
@@ -287,5 +255,25 @@ export const createQuestionsRouter = createTRPCRouter({
             });
       
             return deleted;
+          }),
+
+
+          getPendingTest: publicProcedure
+          .input(z.object({ studentId: z.number() }))
+          .query(async ({ input, ctx }) => {
+            const pendingTest = await ctx.prisma.studentQuiz.findFirst({
+              where: {
+                studentId: input.studentId,
+                status: "pending",
+              },
+              include: {
+                quiz: {
+                  include: {
+                    questions: true,
+                  },
+                },
+              },
+            });
+            return pendingTest;
           }),
 });

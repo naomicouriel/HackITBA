@@ -43,7 +43,6 @@ async function main() {
   }
 
   console.log("🧩 Insertando segmentos en la base de datos...")
-
   for (const seg of json.segments) {
     await prisma.segment.create({
       data: {
@@ -57,7 +56,29 @@ async function main() {
     })
   }
 
-  console.log("✅ Listo! Datos mínimos y segmentos insertados.")
+  // Array con los tópicos a insertar
+  const defaultTopics = [
+    "Finanzas desde cero",
+    "Bancos Federales",
+    "Tasas de interés",
+    "Inflación",
+    "Devaluación",
+    "Tipos de inversión",
+    "Renta fija",
+    "Renta variable",
+  ]
+
+  console.log("🔖 Insertando topics en la base de datos...")
+  for (const topicName of defaultTopics) {
+    await prisma.topic.create({
+      data: {
+        name: topicName,
+        courseId: curso.id, // asocia al curso creado
+      },
+    })
+  }
+
+  console.log("✅ Listo! Datos mínimos, segmentos y topics insertados.")
   console.table({ profesor, alumno, curso })
 }
 

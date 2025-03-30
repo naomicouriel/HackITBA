@@ -1,6 +1,12 @@
+import axios from "axios";
 import { createTRPCRouter, publicProcedure } from "../trpc";
 import { z } from "zod";
 import { prisma } from "~/server/db";
+
+
+const API_KEY = process.env.GROQ_API_KEY || "";
+const GROQ_URL = "https://api.groq.com/openai/v1/chat/completions";
+
 
 
 // Helper function to create the prompt for the Groq API
@@ -20,8 +26,8 @@ Para cada uno de estos temas, debes:
   "topics": [
     {
       "name": "[DEBE ser EXACTAMENTE uno de los siguientes temas, sin modificar: ${topics.join(", ")}]",
-      "start_time": "[marca de tiempo en formato HH:MM:SS del inicio de la explicación]",
-      "end_time": "[marca de tiempo en formato HH:MM:SS del final de la explicación]",
+      "start_time": "[marca de tiempo del inicio de la explicación como esta en la transcripción]",
+      "end_time": "[marca de tiempo del final de la explicación como esta en la transcripción]",
       "transcript_segment": "[texto completo que cubre toda la explicación del tema]",
       "summary": "[resumen conciso de los puntos clave en español]",
       "key_terms": ["[término1]", "[término2]"],
@@ -49,10 +55,6 @@ INSTRUCCIONES IMPORTANTES:
 
 Contenido de la transcripción:
 ${transcriptContent}`;
-
-  // Debug log the prompt length and content
-  console.log('Prompt length:', prompt.length);
-  console.log('Number of segments in transcript:', transcriptContent.split('\n\n').length);
   
   return prompt;
 }
@@ -61,113 +63,107 @@ export const generateSummaryRouter = createTRPCRouter({
   generateSummary: publicProcedure
     .input(
       z.object({
-        course_id: z.number()  // YouTube video ID
+        course_id: z.number(),
+        desdeSegmento: z.number().optional(),
+        hastaSegmento: z.number().optional(),
       })
     )
     .mutation(async ({ input }) => {
-      const { course_id } = input;
+      const { course_id, desdeSegmento, hastaSegmento } = input;
 
       // 1. Obtener segmentos y temas del curso
       const segmentosDB = await prisma.segment.findMany({
         where: { courseId: course_id },
         orderBy: { start: "asc" },
       });
-  
+
       const temasDB = await prisma.topic.findMany({
         where: { courseId: course_id },
       });
-  
+
       const temas = temasDB.map((t) => t.name);
-      
-      const transcriptText = segmentosDB.map((s) => s.text).join("\n\n");
 
+      // 2. Filtrar los segmentos según los inputs (si se proporcionan)
+      let filteredSegments = segmentosDB;
+      if (desdeSegmento !== undefined && hastaSegmento !== undefined) {
+        filteredSegments = segmentosDB.filter(
+          (segment) => segment.start >= desdeSegmento && segment.end <= hastaSegmento
+        );
+      }
+
+      // Convertir los segmentos filtrados a string
+      const transcriptText = JSON.stringify(filteredSegments, null, 2);
+
+      // Crear el prompt
       const prompt = createPrompt(transcriptText, temas);
-      
-      return { segments: segmentosDB, topics: temas };
 
-    })
+      // Llamada a la API (Groq u otra)
+      const { data } = await axios.post(
+        GROQ_URL,
+        {
+          model: "llama3-70b-8192",
+          messages: [{ role: "user", content: prompt }],
+          temperature: 0.2,
+        },
+        {
+          headers: {
+            Authorization: `Bearer ${API_KEY}`,
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
+      const content = data.choices[0].message.content;
+      const jsonMatch = content.match(/\{[\s\S]*\}/);
+      if (!jsonMatch) {
+        console.error("No JSON object found in response");
+        throw new Error("Invalid response format");
+      }
 
-    //   // Create the prompt for Groq
+      const respuesta = jsonMatch[0];
+      const analysis = JSON.parse(respuesta);
 
-    //   try {
-    //     // Debug log to verify API key and request
-    //     console.log('Using API Key:', env.GROQ_API_KEY ? 'Key is present' : 'Key is missing');
-    //     console.log('Making request to Groq API...');
-        
-    //     const requestBody = {
-    //       model: "llama-3.3-70b-versatile",
-    //       messages: [{ role: "user", content: prompt }],
-    //       temperature: 0.3,
-    //       max_tokens: 4000
-    //     };
-        
-    //     // Make API call to Groq
-    //     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    //       method: 'POST',
-    //       headers: {
-    //         'Authorization': `Bearer ${env.GROQ_API_KEY}`,
-    //         'Content-Type': 'application/json'
-    //       },
-    //       body: JSON.stringify(requestBody),
-    //     });
+      // 3. Guardar cada "topic" en la tabla Resumen
+      if (analysis?.topics?.length) {
+        for (const genTopic of analysis.topics) {
+          // Buscar el topic en la DB por nombre
+          const dbTopic = await prisma.topic.findFirst({
+            where: {
+              courseId: course_id,
+              name: genTopic.name,
+            },
+          });
 
-    //     if (!response.ok) {
-    //       const errorData = await response.json().catch(() => ({}));
-    //       console.error('Groq API Response:', {
-    //         status: response.status,
-    //         statusText: response.statusText,
-    //         headers: Object.fromEntries(response.headers.entries()),
-    //         error: errorData
-    //       });
-    //       throw new Error(`Groq API error: ${response.statusText}. ${JSON.stringify(errorData)}`);
-    //     }
+          if (!dbTopic) {
+            // Podrías omitir o crear el topic si no existe
+            console.warn(`Topic ${genTopic.name} no se encontró en DB. Saltando...`);
+            continue;
+          }
 
-    //     const data = await response.json();
-    //     console.log('Groq API Response data:', data);
+          // Insertar un registro en Resumen
+          await prisma.resumen.create({
+            data: {
+              topicId: dbTopic.id,
+              summary: genTopic.summary,
+              transcriptSegment: genTopic.transcript_segment,
+              startTime: genTopic.start_time ? parseFloat(genTopic.start_time) : 0,
+              endTime: genTopic.end_time ? parseFloat(genTopic.end_time) : 0,
+              keyTerms: genTopic.key_terms
+                ? JSON.stringify(genTopic.key_terms) // si viene un array
+                : undefined,
+              relatedTopics: genTopic.related_topics
+                ? JSON.stringify(genTopic.related_topics)
+                : undefined,
+            },
+          });
+        }
+      }
 
-    //     try {
-    //       // Clean up the response content by removing markdown formatting
-    //       let content = data.choices[0].message.content.trim();
-          
-    //       // Extract just the JSON part from the response
-    //       const jsonMatch = content.match(/\{[\s\S]*\}/);
-    //       if (!jsonMatch) {
-    //         console.error('No JSON object found in response');
-    //         throw new Error('Invalid response format');
-    //       }
-    //       content = jsonMatch[0];
-          
-    //       console.log('Extracted JSON content:', content);  // Debug log
-          
-    //       const analysis: TranscriptAnalysis = JSON.parse(content);
-          
-    //       // Add YouTube URLs to each topic, skipping those without timestamps
-    //       const topicsWithUrls = analysis.topics
-    //         .filter(topic => topic.start_time && topic.end_time) // Only include topics with valid timestamps
-    //         .map(topic => ({
-    //           ...topic,
-    //           youtubeUrl: `https://youtu.be/${course_id}?t=${Math.floor(parseTimeToSeconds(topic.start_time))}`
-    //         }));
-
-    //       return {
-    //         message: "✅ Summary generated successfully",
-    //         analysis: {
-    //           ...analysis,
-    //           topics: topicsWithUrls
-    //         }
-    //       };
-    //     } catch (parseError) {
-    //       console.error('Error parsing Groq response:', parseError);
-    //       console.error('Raw response content:', data.choices?.[0]?.message?.content);
-    //       throw new Error('Failed to parse Groq response');
-    //     }
-    //   } catch (error) {
-    //     console.error('Error generating summary:', error);
-    //     if (error instanceof Error) {
-    //       throw new Error(`Failed to generate summary: ${error.message}`);
-    //     }
-    //     throw new Error('Failed to generate summary');
-    //   }
-    // }),
+      // Retornar la info necesaria
+      return {
+        segments: segmentosDB,
+        topics: temas,
+        analysis,
+      };
+    }),
 });

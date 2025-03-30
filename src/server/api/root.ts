@@ -4,6 +4,8 @@ import { createQuestionsRouter } from "./routers/createQuestions";
 import { generateSummaryRouter } from "./routers/generateSummary";
 import { createTranscriptionsRouter } from "./routers/createTranscriptions";
 import { createTemasRouter } from "./routers/createTemas";
+import { answerQuizRouter } from "./routers/answerQuiz";
+import { analysisRouter } from "./routers/analysisResults";
 
 /**
  * This is the primary router for your server.
@@ -16,6 +18,8 @@ export const appRouter = createTRPCRouter({
   generateSummary: generateSummaryRouter,
   createTranscriptions: createTranscriptionsRouter,
   createTemas: createTemasRouter,
+  answerQuiz: answerQuizRouter,
+  analysisResults: analysisRouter,
 });
 
 // export type definition of API

@@ -15,3 +15,73 @@ model Example {
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 }
+
+model User {
+  id         Int             @id @default(autoincrement())
+  name       String
+  email      String          @unique
+  role       String          @default("STUDENT") // valores posibles: "STUDENT" o "PROFESSOR"
+  courses    Course[]        @relation("ProfessorCourses")
+  answers    StudentAnswer[] @relation("StudentAnswers")
+}
+
+
+model Course {
+  id          Int       @id @default(autoincrement())
+  name        String
+  professor   User      @relation("ProfessorCourses", fields: [professorId], references: [id])
+  professorId Int
+  quizzes     Quiz[]
+  topics      Topic[]
+  segments    Segment[]
+}
+
+model Quiz {
+  id        Int      @id @default(autoincrement())
+  threshold Int
+  module    String
+  course    Course   @relation(fields: [courseId], references: [id])
+  courseId  Int
+  questions Question[]
+}
+
+
+model Question {
+  id               Int             @id @default(autoincrement())
+  question         String
+  optionsJson      String
+  correctAnswerKey String
+  answer           String          // respuesta completa, se puede duplicar el texto de la opción correcta si querés
+  quiz             Quiz            @relation(fields: [quizId], references: [id])
+  quizId           Int
+  responses        StudentAnswer[]
+}
+
+
+
+model StudentAnswer {
+  id         Int      @id @default(autoincrement())
+  student    User     @relation("StudentAnswers", fields: [studentId], references: [id])
+  studentId  Int
+  question   Question @relation(fields: [questionId], references: [id])
+  questionId Int
+  response   String
+  isCorrect  Boolean
+  createdAt  DateTime @default(now())
+}
+
+model Topic {
+  id        Int     @id @default(autoincrement())
+  name      String
+  course    Course  @relation(fields: [courseId], references: [id])
+  courseId  Int
+}
+
+model Segment {
+  id        Int     @id @default(autoincrement())
+  start     Float
+  end       Float
+  text      String
+  course    Course  @relation(fields: [courseId], references: [id])
+  courseId  Int
+}

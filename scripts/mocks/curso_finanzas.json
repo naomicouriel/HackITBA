@@ -1,0 +1,1569 @@
+{
+    "segments": [
+        {
+            "end": 9.46,
+            "text": " Bienvenido a este curso básico de finanzas y economía.",
+            "start": 5.9
+        },
+        {
+            "end": 15.98,
+            "text": " De ahora en adelante, cada vez que alguien te hable de renta fija, renta variable, ETFs,",
+            "start": 9.68
+        },
+        {
+            "end": 22.41,
+            "text": " fondos indexados, reservas federales, tasas de interés, vas a saber exactamente de lo",
+            "start": 16.14
+        },
+        {
+            "end": 23.22,
+            "text": " que están hablando.",
+            "start": 22.41
+        },
+        {
+            "end": 28.11,
+            "text": " Y eso te va a ayudar muchísimo a mejorar tus finanzas, porque además también vas",
+            "start": 23.34
+        },
+        {
+            "end": 33.72,
+            "text": " a aprender a detectar los mejores momentos para realizar determinadas inversiones.",
+            "start": 28.11
+        },
+        {
+            "end": 38.96,
+            "text": " Todo eso y más es lo que veremos el día de hoy y eso me hace inmensamente feliz.",
+            "start": 33.9
+        },
+        {
+            "end": 42.95,
+            "text": " Además aquí abajo en la descripción les voy a dejar el índice, pero con marcas de",
+            "start": 39.08
+        },
+        {
+            "end": 48.45,
+            "text": " tiempo para que cuando tú regreses y estés buscando un tema en particular, simplemente",
+            "start": 42.95
+        },
+        {
+            "end": 52.74,
+            "text": " le des allí en el minuto exacto de ese tópico que te interesa.",
+            "start": 48.45
+        },
+        {
+            "end": 57.04,
+            "text": " El primer punto que debemos comprender es ¿qué son los bancos federales?",
+            "start": 53.34
+        },
+        {
+            "end": 59.2,
+            "text": " ¿Qué son sus principales funciones?",
+            "start": 57.48
+        },
+        {
+            "end": 64.24,
+            "text": " Y ¿por qué a cualquier ciudadano de a pie nos interesa saber esta información?",
+            "start": 59.42
+        },
+        {
+            "end": 69.32,
+            "text": " Muy bien, los bancos federales que son los que administran las reservas federales de",
+            "start": 64.42
+        },
+        {
+            "end": 75.93,
+            "text": " todos los gobiernos son aquellas instituciones que poseen el monopolio de imprimir y distribuir",
+            "start": 69.32
+        },
+        {
+            "end": 76.36,
+            "text": " dinero.",
+            "start": 75.93
+        },
+        {
+            "end": 82.94,
+            "text": " Y su función principal obviamente es establecer la política monetaria de cada país, es decir,",
+            "start": 76.5
+        },
+        {
+            "end": 86.92,
+            "text": " ellos son los que prácticamente establecen las reglas del juego.",
+            "start": 83.12
+        },
+        {
+            "end": 91.26,
+            "text": " Y dentro de todas las funciones que tienen los bancos federales, también llamados bancos",
+            "start": 87.1
+        },
+        {
+            "end": 95.64,
+            "text": " centrales, hay una función que nos interesa muchísimo a ti y a mí.",
+            "start": 91.26
+        },
+        {
+            "end": 100.36,
+            "text": " ¿Por qué los bancos centrales establecen las tasas de interés?",
+            "start": 95.72
+        },
+        {
+            "end": 102.24,
+            "text": " Y ¿por qué nos interesa esto?",
+            "start": 100.68
+        },
+        {
+            "end": 108.18,
+            "text": " Porque de las tasas de interés podría desprenderse problemas o beneficios, problemas como la",
+            "start": 102.5
+        },
+        {
+            "end": 112.84,
+            "text": " inflación y beneficios como aumentar el poder adquisitivo de las personas.",
+            "start": 108.18
+        },
+        {
+            "end": 118.4,
+            "text": " Ya viste por qué nos interesa estar informados sobre todas las decisiones que van tomando",
+            "start": 113.1
+        },
+        {
+            "end": 124.74,
+            "text": " los bancos centrales y especialmente uno al que conocemos como la Fed, que es la Reserva",
+            "start": 118.52
+        },
+        {
+            "end": 126.42,
+            "text": " Federal de Estados Unidos.",
+            "start": 125.48
+        },
+        {
+            "end": 128.14,
+            "text": " ¿Por qué nos interesa mucho?",
+            "start": 126.52
+        },
+        {
+            "end": 133.06,
+            "text": " Porque hemos dicho que los bancos centrales son los que dictan las políticas monetarias.",
+            "start": 128.38
+        },
+        {
+            "end": 139.06,
+            "text": " Y como ustedes saben, desde que terminó la Segunda Guerra hasta la fecha, la política",
+            "start": 133.22
+        },
+        {
+            "end": 144.9,
+            "text": " que rige en prácticamente todo el mundo es la que estableció Estados Unidos.",
+            "start": 140.04
+        },
+        {
+            "end": 146.86,
+            "text": " ¿Ven lo que está pasando en la economía?",
+            "start": 145.2
+        },
+        {
+            "end": 150.12,
+            "text": " Y no ven la relación con la emisión de moneda de la Reserva Federal.",
+            "start": 147.22
+        },
+        {
+            "end": 156.25,
+            "text": " Tienen que ponerse a hablar del banco central, que es la clave de la economía mundial y",
+            "start": 151.26
+        },
+        {
+            "end": 161.66,
+            "text": " de la economía estadounidense y también de la crisis que estamos viviendo.",
+            "start": 156.25
+        },
+        {
+            "end": 169.22,
+            "text": " Comprendamos en qué momento los bancos centrales establecen tasas de interés bajas o tasas",
+            "start": 163.26
+        },
+        {
+            "end": 170.6,
+            "text": " de interés elevadas.",
+            "start": 169.22
+        },
+        {
+            "end": 178.64,
+            "text": " Los bancos centrales tienen el poder, el grandísimo poder y responsabilidad de permitirle a la",
+            "start": 170.98
+        },
+        {
+            "end": 183.68,
+            "text": " gente acceder de una manera más fácil o más difícil a financiamientos.",
+            "start": 179.32
+        },
+        {
+            "end": 187.78,
+            "text": " La Reserva Federal anticipó hoy que pronto subirá la tasa de interés.",
+            "start": 183.72
+        },
+        {
+            "end": 189.86,
+            "text": " Es una estrategia para frenar la inflación.",
+            "start": 187.96
+        },
+        {
+            "end": 193.98,
+            "text": " Los resultados explican el impacto que este aumento puede tener en sus finanzas.",
+            "start": 190.22
+        },
+        {
+            "end": 198.34,
+            "text": " Medida que afectará principalmente a quienes pagan un financiamiento con tasa variable.",
+            "start": 194.1
+        },
+        {
+            "end": 202.66,
+            "text": " Uno va pagando pero el interés te suma y te suma y te suma y te paga el doble.",
+            "start": 198.56
+        },
+        {
+            "end": 210.99,
+            "text": " Las tasas de interés muy bajas se establecen precisamente para ayudarle al país a que",
+            "start": 203.64
+        },
+        {
+            "end": 213.0,
+            "text": " tenga dinero para consumir.",
+            "start": 210.99
+        },
+        {
+            "end": 218.42,
+            "text": " Esto se hace generalmente cuando hay alguna complicación en los mercados, cuando las",
+            "start": 213.08
+        },
+        {
+            "end": 225.36,
+            "text": " finanzas de los países no están saludables, precisamente como sucedió al inicio de toda",
+            "start": 218.46
+        },
+        {
+            "end": 229.24,
+            "text": " esta complicación sanitaria que inició a principios del 2020.",
+            "start": 225.36
+        },
+        {
+            "end": 235.54,
+            "text": " Precisamente en ese momento en donde comenzó una crisis económica prácticamente a nivel",
+            "start": 229.34
+        },
+        {
+            "end": 240.74,
+            "text": " mundial los bancos centrales estratégicamente bajan las tasas de interés.",
+            "start": 236.44
+        },
+        {
+            "end": 246.77,
+            "text": " Cuando hablamos de bajar las tasas de interés popularmente decimos hay dinero barato y",
+            "start": 240.76
+        },
+        {
+            "end": 252.29,
+            "text": " es dinero barato precisamente porque puedes acceder a financiamientos costosísimos como",
+            "start": 246.77
+        },
+        {
+            "end": 255.51,
+            "text": " el de una casa, el de un automóvil, el de un local.",
+            "start": 252.29
+        },
+        {
+            "end": 260.88,
+            "text": " Y las tasas de interés pueden ser tan bajas que en algunos casos y obviamente de manera",
+            "start": 255.51
+        },
+        {
+            "end": 269.7,
+            "text": " momentánea van a estar fijadas en 0 o .1 o .2% que son tasas ridículamente bajas.",
+            "start": 261.02
+        },
+        {
+            "end": 274.91,
+            "text": " Te van a prestar dinero prácticamente a cambio de nada más que se los regreses obviamente",
+            "start": 269.72
+        },
+        {
+            "end": 281.54,
+            "text": " y no te van a cobrar intereses siempre y cuando se lo devuelvas en ese periodo de tiempo en",
+            "start": 274.91
+        },
+        {
+            "end": 284.16,
+            "text": " donde las tasas de interés están bajas.",
+            "start": 281.54
+        },
+        {
+            "end": 287.26,
+            "text": " Y así es como ellos incentivan el consumo.",
+            "start": 284.2
+        },
+        {
+            "end": 292.78,
+            "text": " Ellos saben perfectamente cómo nos vamos a comportar prácticamente todas las personas",
+            "start": 287.42
+        },
+        {
+            "end": 296.46,
+            "text": " cada vez que ellos aprieten un botoncito o jalen una palanca.",
+            "start": 292.9
+        },
+        {
+            "end": 302.43,
+            "text": " Ellos ya saben qué es lo que vamos a hacer nosotros reaccionando precisamente a esa estrategia",
+            "start": 296.7
+        },
+        {
+            "end": 303.78,
+            "text": " que ellos establezcan.",
+            "start": 302.43
+        },
+        {
+            "end": 309.92,
+            "text": " Así que ellos saben que cuando bajan las tasas de interés vamos a ir todos corriendo",
+            "start": 303.78
+        },
+        {
+            "end": 315.08,
+            "text": " a los bancos a solicitar financiamientos para comprar casas, para comprar departamentos,",
+            "start": 310.04
+        },
+        {
+            "end": 316.64,
+            "text": " para comprar automóviles.",
+            "start": 315.14
+        },
+        {
+            "end": 322.0,
+            "text": " Incluso solicitamos tarjetas de crédito porque las tasas de interés son tan bajitas que",
+            "start": 316.94
+        },
+        {
+            "end": 325.58,
+            "text": " podemos estarlas usando como si fuera dinero corriente.",
+            "start": 322.04
+        },
+        {
+            "end": 328.66,
+            "text": " Y entonces la población se siente muy bien.",
+            "start": 325.74
+        },
+        {
+            "end": 332.5,
+            "text": " Ese es el efecto que se genera cuando bajan las tasas de interés.",
+            "start": 328.74
+        },
+        {
+            "end": 338.04,
+            "text": " Todos sentimos que estamos viviendo una temporada de abundancia económica y por eso nos atrevemos",
+            "start": 332.6
+        },
+        {
+            "end": 343.72,
+            "text": " incluso a tomar riesgos financieros mucho más allá de los que tomaríamos en otras",
+            "start": 338.04
+        },
+        {
+            "end": 344.25,
+            "text": " condiciones.",
+            "start": 343.8
+        },
+        {
+            "end": 348.96,
+            "text": " Por eso cuando bajan las tasas de interés la bolsa de valores sube.",
+            "start": 344.25
+        },
+        {
+            "end": 353.22,
+            "text": " Cuando bajan las tasas de interés las criptomonedas suben.",
+            "start": 348.98
+        },
+        {
+            "end": 359.14,
+            "text": " Nos vamos a la bolsa de valores, compramos acciones, empezamos a correr demasiados riesgos",
+            "start": 353.32
+        },
+        {
+            "end": 362.4,
+            "text": " porque nos sentimos financieramente seguros.",
+            "start": 359.14
+        },
+        {
+            "end": 368.21,
+            "text": " Y esas son las consecuencias de haber actuado así cuando hay abundancia económica, pero",
+            "start": 362.52
+        },
+        {
+            "end": 373.4,
+            "text": " sabemos que esta abundancia económica es ficticia porque era prestado.",
+            "start": 368.21
+        },
+        {
+            "end": 380.66,
+            "text": " Ahora vamos a comprender en qué momento los bancos centrales suben las tasas de interés.",
+            "start": 375.6
+        },
+        {
+            "end": 387.64,
+            "text": " Todo ese dinero que nos estuvieron prestando a tasas bajísimas ahora nos lo piden de",
+            "start": 380.72
+        },
+        {
+            "end": 393.94,
+            "text": " ¿Cuál es la mejor manera de cerciorarse de que les vamos a devolver todo ese dinero?",
+            "start": 388.24
+        },
+        {
+            "end": 396.12,
+            "text": " Pues elevando las tasas de interés.",
+            "start": 394.14
+        },
+        {
+            "end": 401.25,
+            "text": " Si ellos elevan las tasas de interés ahora sí nosotros vamos a tener prisa por devolverles",
+            "start": 396.36
+        },
+        {
+            "end": 407.04,
+            "text": " todo ese dinero porque de lo contrario vamos a estar pagando mucho dinero por los préstamos,",
+            "start": 401.25
+        },
+        {
+            "end": 410.36,
+            "text": " por los financiamientos que solicitamos anteriormente.",
+            "start": 407.16
+        },
+        {
+            "end": 416.16,
+            "text": " Así que por eso es que es de muchísimo cuidado solicitar créditos con tasas cero, con tasas",
+            "start": 410.42
+        },
+        {
+            "end": 421.28,
+            "text": " muy bajas porque a veces en los contratos en la letra chiquita dice que puede cambiar",
+            "start": 416.16
+        },
+        {
+            "end": 426.74,
+            "text": " de un momento a otro y este podría ser ese momento en donde los bancos centrales dicen",
+            "start": 421.3
+        },
+        {
+            "end": 431.69,
+            "text": " ya devuélvanme todo ese dinero porque ya lo necesito para infraestructura, para crecimiento",
+            "start": 426.74
+        },
+        {
+            "end": 432.7,
+            "text": " del país, etc.",
+            "start": 431.69
+        },
+        {
+            "end": 436.99,
+            "text": " Medida que afectará principalmente a quienes pagan un financiamiento con tasa variable.",
+            "start": 432.84
+        },
+        {
+            "end": 441.46,
+            "text": " Uno va pagando pero el de interés te suma y te suma y te suma y te deja pagando el doble.",
+            "start": 436.99
+        },
+        {
+            "end": 446.82,
+            "text": " Y esto nos lleva al siguiente punto muy importante que es la inflación.",
+            "start": 442.74
+        },
+        {
+            "end": 452.4,
+            "text": " Este es un fenómeno que prácticamente hasta el siglo XV nadie lo conocía.",
+            "start": 446.98
+        },
+        {
+            "end": 458.6,
+            "text": " En resumidas palabras, la inflación es la reducción del poder adquisitivo de las personas",
+            "start": 452.42
+        },
+        {
+            "end": 464.32,
+            "text": " y esto es un fenómeno que desde luego nos afecta muy seriamente a todos nosotros porque",
+            "start": 458.76
+        },
+        {
+            "end": 468.62,
+            "text": " con determinada cantidad de dinero cada vez nos alcanza para menos.",
+            "start": 464.32
+        },
+        {
+            "end": 473.36,
+            "text": " Nos alcanza para menos pues obviamente porque hay una subida de precios.",
+            "start": 468.96
+        },
+        {
+            "end": 480.55,
+            "text": " Ahora tengo que serles muy honesto, la gran mayoría de los países maquilla el porcentaje",
+            "start": 473.42
+        },
+        {
+            "end": 481.22,
+            "text": " de inflación.",
+            "start": 480.55
+        },
+        {
+            "end": 486.18,
+            "text": " Casi siempre es mucho más elevado de lo que se publica oficialmente.",
+            "start": 481.28
+        },
+        {
+            "end": 491.73,
+            "text": " Así que ahora ya lo sabes, existe inflación cuando suben los precios de las cosas y por",
+            "start": 486.22
+        },
+        {
+            "end": 498.12,
+            "text": " lo tanto se disminuye el poder adquisitivo provocando que con el mismo dinero cada vez",
+            "start": 491.73
+        },
+        {
+            "end": 499.46,
+            "text": " te alcance para menos.",
+            "start": 498.2
+        },
+        {
+            "end": 506.54,
+            "text": " Y ahora vamos al siguiente punto del que todo mundo habla pero que casi nadie comprende",
+            "start": 501.2
+        },
+        {
+            "end": 510.62,
+            "text": " con claridad y que incluso confunden mucho dos términos.",
+            "start": 506.54
+        },
+        {
+            "end": 516.14,
+            "text": " Me refiero a la devaluación y la confusión existe precisamente entre devaluación e inflación.",
+            "start": 510.74
+        },
+        {
+            "end": 521.08,
+            "text": " Ya vimos que inflación es cuando los precios de las cosas suben por lo tanto con el mismo",
+            "start": 516.28
+        },
+        {
+            "end": 523.26,
+            "text": " dinero a ti te alcanza cada vez para menos.",
+            "start": 521.08
+        },
+        {
+            "end": 525.62,
+            "text": " Eso es lo que estamos viviendo ahora mismo.",
+            "start": 523.44
+        },
+        {
+            "end": 527.88,
+            "text": " Ahora conozcamos la devaluación.",
+            "start": 526.18
+        },
+        {
+            "end": 534.54,
+            "text": " La devaluación es un término relativo porque es una devaluación de una moneda en relación",
+            "start": 528.0
+        },
+        {
+            "end": 535.32,
+            "text": " con otra.",
+            "start": 534.72
+        },
+        {
+            "end": 541.37,
+            "text": " Por eso por ejemplo cuando escuchamos se devaluó el peso mexicano es porque estamos haciendo",
+            "start": 535.44
+        },
+        {
+            "end": 543.54,
+            "text": " una comparación con otra divisa.",
+            "start": 541.37
+        },
+        {
+            "end": 547.14,
+            "text": " Casi siempre es con respecto al dólar estadounidense.",
+            "start": 543.56
+        },
+        {
+            "end": 552.98,
+            "text": " Así es que se devaluó el peso mexicano con respecto al dólar estadounidense.",
+            "start": 547.38
+        },
+        {
+            "end": 557.62,
+            "text": " Esto significa que el dinero está perdiendo valor y te lo voy a explicar precisamente",
+            "start": 553.22
+        },
+        {
+            "end": 560.1,
+            "text": " cuando existía el patrón oro.",
+            "start": 557.62
+        },
+        {
+            "end": 566.23,
+            "text": " Anteriormente los billetes eran cheques al portador que estaban respaldados por oro.",
+            "start": 560.44
+        },
+        {
+            "end": 572.8,
+            "text": " Es decir las personas podían ir a los bancos y cambiar ese cheque que tenían de 100 dólares",
+            "start": 566.23
+        },
+        {
+            "end": 576.54,
+            "text": " por ejemplo y les entregaban 100 dólares en oro.",
+            "start": 572.82
+        },
+        {
+            "end": 579.54,
+            "text": " Todo el dinero estaba respaldado en oro.",
+            "start": 576.7
+        },
+        {
+            "end": 585.94,
+            "text": " Pero llega ese momento crítico en donde los bancos centrales imprimen más dinero",
+            "start": 579.82
+        },
+        {
+            "end": 587.7,
+            "text": " del que existe en oro.",
+            "start": 586.18
+        },
+        {
+            "end": 593.6,
+            "text": " Allí es cuando ya decimos que esa moneda se devaluó precisamente porque ahora en",
+            "start": 587.84
+        },
+        {
+            "end": 598.22,
+            "text": " circulación hay más dinero de lo que tenemos en las reservas de oro.",
+            "start": 593.78
+        },
+        {
+            "end": 602.76,
+            "text": " Imprimir más dinero es una solución ficticia dañina.",
+            "start": 598.32
+        },
+        {
+            "end": 605.66,
+            "text": " Es tratar de tapar el sol con un dedo.",
+            "start": 603.38
+        },
+        {
+            "end": 610.84,
+            "text": " Es intentar curar una enfermedad gravísima con un jarabito para la tos.",
+            "start": 605.7
+        },
+        {
+            "end": 616.92,
+            "text": " Esto que tú estás viendo ahora mismo es un billete de 500 millones de dólares impreso",
+            "start": 610.92
+        },
+        {
+            "end": 620.02,
+            "text": " por la Reserva Federal del Banco de Zimbabue.",
+            "start": 616.92
+        },
+        {
+            "end": 623.4,
+            "text": " Este es un billete totalmente real y oficial.",
+            "start": 620.2
+        },
+        {
+            "end": 629.66,
+            "text": " Pero resulta que esta cantidad de dinero allá en Zimbabue les alcanza apenas para comprar",
+            "start": 623.46
+        },
+        {
+            "end": 632.52,
+            "text": " unos panecitos o unos cuantos plátanos.",
+            "start": 630.04
+        },
+        {
+            "end": 638.64,
+            "text": " Esa es la grave consecuencia de imprimir cada vez más dinero cuando no hay ningún",
+            "start": 632.9
+        },
+        {
+            "end": 641.32,
+            "text": " soporte de ese dinero circulante.",
+            "start": 638.74
+        },
+        {
+            "end": 643.6,
+            "text": " Y eso es la devaluación.",
+            "start": 641.4
+        },
+        {
+            "end": 647.74,
+            "text": " Ahora avanzamos a un tema muy importante que sé que te gusta mucho.",
+            "start": 644.42
+        },
+        {
+            "end": 649.66,
+            "text": " Es el tema de las inversiones.",
+            "start": 647.92
+        },
+        {
+            "end": 655.74,
+            "text": " Y dentro de las inversiones tenemos inversiones en renta fija e inversiones en renta variable.",
+            "start": 650.1
+        },
+        {
+            "end": 658.88,
+            "text": " Yo sé que esto puede sonar a chino, pero es muy sencillo.",
+            "start": 655.74
+        },
+        {
+            "end": 662.16,
+            "text": " Arranquemos con las inversiones de renta fija que son las más sencillas.",
+            "start": 658.94
+        },
+        {
+            "end": 667.26,
+            "text": " Se le llama de renta fija precisamente porque desde el momento que firmamos el contrato",
+            "start": 662.26
+        },
+        {
+            "end": 673.9,
+            "text": " de inversión se fija, se estipula el porcentaje de interés que vamos a ganar por la cantidad",
+            "start": 667.26
+        },
+        {
+            "end": 675.36,
+            "text": " de dinero que hayamos invertido.",
+            "start": 673.9
+        },
+        {
+            "end": 681.13,
+            "text": " Es decir, conocemos anticipadamente el dinero que vamos a ganar por haber realizado esa",
+            "start": 676.22
+        },
+        {
+            "end": 681.74,
+            "text": " inversión.",
+            "start": 681.13
+        },
+        {
+            "end": 683.25,
+            "text": " Tan tan, es así de sencillo.",
+            "start": 681.8
+        },
+        {
+            "end": 689.01,
+            "text": " Por ejemplo, si hoy tú inviertes mil dólares en un instrumento de renta fija en donde la",
+            "start": 683.25
+        },
+        {
+            "end": 694.67,
+            "text": " tasa de interés es del 5% anual, tú ya sabes que exactamente dentro de un año tú",
+            "start": 689.01
+        },
+        {
+            "end": 696.88,
+            "text": " vas a tener mil 50 dólares.",
+            "start": 694.67
+        },
+        {
+            "end": 701.73,
+            "text": " Por eso es que las inversiones en renta fija son las más seguras, pero también son las",
+            "start": 696.92
+        },
+        {
+            "end": 703.6,
+            "text": " que menos rendimiento dan.",
+            "start": 701.73
+        },
+        {
+            "end": 708.52,
+            "text": " Porque el rendimiento en muchas ocasiones está relacionado con el nivel de riesgo.",
+            "start": 703.64
+        },
+        {
+            "end": 713.91,
+            "text": " Y los tres principales instrumentos de renta fija son los bonos federales, los inmuebles",
+            "start": 708.54
+        },
+        {
+            "end": 715.78,
+            "text": " de alquiler y los pagarés.",
+            "start": 713.91
+        },
+        {
+            "end": 719.92,
+            "text": " Yo les voy a explicar que son los bonos federales, los otros dos los conoces muy bien.",
+            "start": 715.94
+        },
+        {
+            "end": 726.76,
+            "text": " Los bonos federales son precisamente esos instrumentos a partir de los cuales los gobiernos",
+            "start": 720.08
+        },
+        {
+            "end": 730.28,
+            "text": " le piden dinero a las empresas y a las personas.",
+            "start": 726.92
+        },
+        {
+            "end": 735.94,
+            "text": " Y es así como tú y como yo y como cualquier persona o empresa le presta dinero al gobierno",
+            "start": 730.34
+        },
+        {
+            "end": 738.34,
+            "text": " a cambio de un interés fijo.",
+            "start": 736.06
+        },
+        {
+            "end": 742.92,
+            "text": " Por eso es que decimos que los bonos federales son uno de los instrumentos más seguros que",
+            "start": 738.4
+        },
+        {
+            "end": 744.5,
+            "text": " existen al momento de invertir.",
+            "start": 742.96
+        },
+        {
+            "end": 748.0,
+            "text": " Pero recuerda que a mayor seguridad, menor es el rendimiento.",
+            "start": 744.62
+        },
+        {
+            "end": 750.78,
+            "text": " Avanzamos ahora con las inversiones de renta variable.",
+            "start": 748.14
+        },
+        {
+            "end": 757.06,
+            "text": " Se llama renta variable precisamente porque no sabes exactamente cuánto vas a ganar por",
+            "start": 751.24
+        },
+        {
+            "end": 759.01,
+            "text": " la inversión que estás realizando el día de hoy.",
+            "start": 757.08
+        },
+        {
+            "end": 764.5,
+            "text": " Es más, en algunas ocasiones ni siquiera sabes si vas a ganar dinero porque incluso podrías",
+            "start": 759.01
+        },
+        {
+            "end": 767.0,
+            "text": " o no ganar o perder dinero.",
+            "start": 764.7
+        },
+        {
+            "end": 769.6,
+            "text": " ¿Y cuáles son los principales instrumentos de renta variable?",
+            "start": 767.14
+        },
+        {
+            "end": 775.36,
+            "text": " Las acciones en la bolsa de valores, los fondos indexados, los índices que cotizan",
+            "start": 769.9
+        },
+        {
+            "end": 780.66,
+            "text": " en la bolsa de valores, los ETFs que también son instrumentos de la bolsa de valores y",
+            "start": 775.36
+        },
+        {
+            "end": 782.74,
+            "text": " los fondos de inversión de renta variable.",
+            "start": 780.66
+        },
+        {
+            "end": 787.16,
+            "text": " Pero en ninguno de ellos puedes saber exactamente cuánto vas a ganar en cada periodo.",
+            "start": 782.78
+        },
+        {
+            "end": 789.26,
+            "text": " Incluso podrías perder dinero.",
+            "start": 787.16
+        },
+        {
+            "end": 793.94,
+            "text": " Claro que aquí es en donde vas a encontrar los rendimientos más jugosos.",
+            "start": 789.4
+        },
+        {
+            "end": 799.71,
+            "text": " Porque como dijimos antes, a mayor riesgo, mayores son los rendimientos potenciales.",
+            "start": 794.54
+        },
+        {
+            "end": 806.19,
+            "text": " Y esto nos lleva al siguiente punto que es mucho muy importante.",
+            "start": 799.71
+        },
+        {
+            "end": 813.04,
+            "text": " El SP500, el famoso Standard & Poor's 500 que seguramente tú has escuchado mencionar",
+            "start": 806.19
+        },
+        {
+            "end": 816.7,
+            "text": " a un montón de gente hablar precisamente de este instrumento.",
+            "start": 813.04
+        },
+        {
+            "end": 821.54,
+            "text": " El índice Standard & Poor's 500 entró por un momento en territorio bajista esta semana",
+            "start": 816.88
+        },
+        {
+            "end": 825.58,
+            "text": " al tener una caída de más del 20% desde su máximo histórico en enero.",
+            "start": 821.54
+        },
+        {
+            "end": 832.18,
+            "text": " Cuando nosotros invertimos en el SP500, lo que en realidad estamos haciendo es invertir",
+            "start": 825.66
+        },
+        {
+            "end": 838.72,
+            "text": " de manera indirecta en las 500 principales empresas de Estados Unidos, que generalmente",
+            "start": 832.34
+        },
+        {
+            "end": 842.16,
+            "text": " son algunas de las más importantes a nivel mundial.",
+            "start": 839.42
+        },
+        {
+            "end": 844.72,
+            "text": " Y esto qué beneficios y qué contras tiene.",
+            "start": 842.16
+        },
+        {
+            "end": 851.61,
+            "text": " Cuando estamos invirtiendo en un instrumento indexado, porque el SP500 es un índice, es",
+            "start": 845.04
+        },
+        {
+            "end": 857.84,
+            "text": " decir, lo que hace es reflejar las utilidades o pérdidas de las 500 empresas más importantes",
+            "start": 851.61
+        },
+        {
+            "end": 863.43,
+            "text": " del mundo, bueno, lo que estamos haciendo es dispersar el beneficio, todo el beneficio",
+            "start": 857.86
+        },
+        {
+            "end": 866.6,
+            "text": " ganado entre las 500 empresas.",
+            "start": 863.43
+        },
+        {
+            "end": 869.92,
+            "text": " Te voy a poner dos escenarios para que se comprenda perfectamente bien esto.",
+            "start": 866.68
+        },
+        {
+            "end": 877.3,
+            "text": " Si tú hubieras invertido en Tesla directamente, en donde Tesla hace un año pues generó todas",
+            "start": 870.54
+        },
+        {
+            "end": 883.42,
+            "text": " esas utilidades y a ti te hubieran tocado 500 mil dólares, si tú inviertes directamente",
+            "start": 877.32
+        },
+        {
+            "end": 886.4,
+            "text": " en Tesla, esos 500 mil dólares son para ti.",
+            "start": 883.48
+        },
+        {
+            "end": 893.02,
+            "text": " Pero cuando lo haces a través del SP500, esos 500 mil dólares se distribuyen en las",
+            "start": 886.64
+        },
+        {
+            "end": 898.03,
+            "text": " 500 empresas, por lo tanto a ti solamente te corresponden mil dólares, que es la división",
+            "start": 893.02
+        },
+        {
+            "end": 900.0,
+            "text": " de 500 mil entre 500.",
+            "start": 898.03
+        },
+        {
+            "end": 904.22,
+            "text": " Podemos decir que este es un contra, pero ya sabes que todo es relativo y todo depende",
+            "start": 900.52
+        },
+        {
+            "end": 905.12,
+            "text": " de la óptica.",
+            "start": 904.22
+        },
+        {
+            "end": 910.07,
+            "text": " Si quieres ver el vaso medio vacío o medio lleno, si lo quieres ver medio vacío, este",
+            "start": 905.34
+        },
+        {
+            "end": 914.94,
+            "text": " es un contra, pero si lo quieres ver medio lleno, este es un pro, porque este también",
+            "start": 910.07
+        },
+        {
+            "end": 919.28,
+            "text": " puede ser uno de los principales beneficios de invertir en el SP500.",
+            "start": 914.94
+        },
+        {
+            "end": 924.66,
+            "text": " Ahora te voy a poner el caso contrario, continuando con el ejemplo anterior en donde tú invertiste",
+            "start": 919.42
+        },
+        {
+            "end": 931.38,
+            "text": " directamente en Tesla, suponiendo que Tesla tuvo una pérdida estrepitosa en donde tú",
+            "start": 924.76
+        },
+        {
+            "end": 937.14,
+            "text": " hubieras perdido 500 mil dólares, bueno esa pérdida tan grande la absorbes tú en su",
+            "start": 931.54
+        },
+        {
+            "end": 943.08,
+            "text": " totalidad, pero qué pasa si lo haces a través del SP500, pues que esos 500 mil dólares",
+            "start": 937.14
+        },
+        {
+            "end": 948.56,
+            "text": " distribuidos entre las 500 empresas en las que estás invirtiendo, pues a ti solamente",
+            "start": 943.72
+        },
+        {
+            "end": 951.44,
+            "text": " te corresponde una pérdida de mil dólares.",
+            "start": 948.56
+        },
+        {
+            "end": 957.98,
+            "text": " ¿Qué es la diferencia entre invertir directamente en acciones y hacerlo a través del SP500?",
+            "start": 951.74
+        },
+        {
+            "end": 963.26,
+            "text": " Que por cierto ahora mismo estamos viviendo una caída del SP500, precisamente por toda",
+            "start": 958.02
+        },
+        {
+            "end": 967.2,
+            "text": " la situación tan grave a la que nos estamos enfrentando ahora mismo.",
+            "start": 963.26
+        },
+        {
+            "end": 973.52,
+            "text": " Ahora mismo estamos viviendo un colapso financiero, y un colapso se da precisamente cuando son",
+            "start": 967.24
+        },
+        {
+            "end": 978.56,
+            "text": " muchas cosas las que están fallando de manera simultánea, eso es lo que estamos viviendo",
+            "start": 973.68
+        },
+        {
+            "end": 979.3,
+            "text": " ahora mismo.",
+            "start": 978.58
+        },
+        {
+            "end": 985.84,
+            "text": " Pero además ya sabes que cuando las tasas de interés bajan la bolsa de valores sube,",
+            "start": 979.74
+        },
+        {
+            "end": 991.24,
+            "text": " cuando las tasas de interés suben la bolsa de valores baja, precisamente porque ahora",
+            "start": 985.94
+        },
+        {
+            "end": 996.57,
+            "text": " las personas como tienen menos dinero, porque en la gran mayoría de las ocasiones esto",
+            "start": 991.24
+        },
+        {
+            "end": 1003.42,
+            "text": " se da junto a una inflación, entonces tenemos menos dinero, reducen el consumo, hay menos",
+            "start": 996.57
+        },
+        {
+            "end": 1008.78,
+            "text": " dinero para las personas, cuando tenemos menos dinero obviamente no vamos a estar tomando",
+            "start": 1003.42
+        },
+        {
+            "end": 1014.6,
+            "text": " riesgos adicionales, ahí es en donde no queremos incertidumbre, no queremos arriesgar",
+            "start": 1008.92
+        },
+        {
+            "end": 1021.58,
+            "text": " nuestro dinero, todo lo contrario, queremos protegerlo, así que lo sacamos de los instrumentos",
+            "start": 1014.6
+        },
+        {
+            "end": 1027.66,
+            "text": " de renta variable y nos vamos a renta fija, nos vamos a ir por ejemplo a bonos federales,",
+            "start": 1021.74
+        },
+        {
+            "end": 1033.54,
+            "text": " y ahí también tenemos una correlación muy pero muy interesante, recuerda esto que es",
+            "start": 1027.78
+        },
+        {
+            "end": 1038.56,
+            "text": " regla básica de las finanzas, cuando suben las acciones bajan los bonos federales, cuando",
+            "start": 1033.68
+        },
+        {
+            "end": 1044.22,
+            "text": " bajan las tasas de interés sube la bolsa de valores y obviamente la gran mayoría de los",
+            "start": 1038.6
+        },
+        {
+            "end": 1050.05,
+            "text": " instrumentos de renta variable, es decir los de riesgo, acuérdate perfectamente de esto que te",
+            "start": 1044.24
+        },
+        {
+            "end": 1055.02,
+            "text": " estoy diciendo que es lo que te va a ayudar a invertir, si bajan las tasas de interés suben las",
+            "start": 1050.05
+        },
+        {
+            "end": 1060.85,
+            "text": " acciones por lo tanto suben todos los activos de renta variable, pero qué pasa si suben las tasas",
+            "start": 1055.02
+        },
+        {
+            "end": 1067.88,
+            "text": " de interés, si suben las tasas de interés bajan las acciones y todos los activos de renta variable,",
+            "start": 1060.85
+        },
+        {
+            "end": 1073.62,
+            "text": " por lo tanto si suben las tasas de interés cuál es el instrumento que también va a subir,",
+            "start": 1067.98
+        },
+        {
+            "end": 1078.3,
+            "text": " en donde prácticamente todo mundo va a ir a invertir allí, te voy a ir dando pistas en lo",
+            "start": 1073.78
+        },
+        {
+            "end": 1083.89,
+            "text": " que respondes, si suben las tasas de interés significa que vamos a tener menos dinero, si",
+            "start": 1078.3
+        },
+        {
+            "end": 1090.46,
+            "text": " tenemos menos dinero no queremos arriesgarlo, queremos protegerlo, por lo tanto en dónde",
+            "start": 1083.89
+        },
+        {
+            "end": 1097.36,
+            "text": " vamos a invertir nuestro dinero, exactamente en renta fija, nos vamos a ir a los bonos federales,",
+            "start": 1090.48
+        },
+        {
+            "end": 1104.1,
+            "text": " a los bonos del gobierno. Ahora vamos a hablar de dos instrumentos de inversión mucho muy importantes",
+            "start": 1097.36
+        },
+        {
+            "end": 1109.78,
+            "text": " y sus principales diferencias porque sé que tienen muchas dudas, el primero son los fondos",
+            "start": 1104.5
+        },
+        {
+            "end": 1117.58,
+            "text": " de inversión indexados y el segundo son los ETFs, por ejemplo si tú quisieras invertir en el SP500",
+            "start": 1109.8
+        },
+        {
+            "end": 1126.04,
+            "text": " lo puedes hacer a través de un fondo indexado al SP500 o a través de un ETF indexado al SP500,",
+            "start": 1117.74
+        },
+        {
+            "end": 1132.76,
+            "text": " que esté indexado significa que refleja el comportamiento de un índice, este puede ser el",
+            "start": 1126.38
+        },
+        {
+            "end": 1138.68,
+            "text": " SP500, puede ser el NASDAQ, etcétera, para que tú decidas en cuál invertir te voy a platicar de",
+            "start": 1132.76
+        },
+        {
+            "end": 1144.97,
+            "text": " sus principales diferencias, un ETF se comporta exactamente igual a una acción, una acción en la",
+            "start": 1138.68
+        },
+        {
+            "end": 1150.92,
+            "text": " bolsa de valores y un fondo indexado se comporta exactamente igual que cualquier fondo de inversión,",
+            "start": 1144.97
+        },
+        {
+            "end": 1157.08,
+            "text": " si tú inviertes en un ETF tú vas a pagar las comisiones de compra y venta así como los",
+            "start": 1150.92
+        },
+        {
+            "end": 1163.6,
+            "text": " impuestos hasta que hayas vendido ese ETF, que es exactamente cómo funcionan las acciones y otra",
+            "start": 1157.14
+        },
+        {
+            "end": 1169.56,
+            "text": " gran diferencia es que los costos de mantenimiento y operación de un ETF son muy baratos con respecto",
+            "start": 1163.6
+        },
+        {
+            "end": 1176.66,
+            "text": " a los fondos indexados, ¿por qué? porque los ETFs funcionan de manera automática, es decir no",
+            "start": 1169.86
+        },
+        {
+            "end": 1183.86,
+            "text": " necesitan que ninguna persona, que ningún gestor esté detrás de tu ETF trabajando en él para generar",
+            "start": 1176.7
+        },
+        {
+            "end": 1188.4,
+            "text": " rentabilidad, por lo tanto baja el costo de mantenimiento y operación, en cambio en los",
+            "start": 1183.86
+        },
+        {
+            "end": 1194.74,
+            "text": " fondos indexados forzosamente requieren de un gestor, es decir una persona que está trabajando",
+            "start": 1188.4
+        },
+        {
+            "end": 1201.02,
+            "text": " allí en tu fondo indexado para provocar ganancias y obviamente esta persona pues no lo va a hacer",
+            "start": 1194.8
+        },
+        {
+            "end": 1206.62,
+            "text": " gratuitamente, ¿verdad? las empresas le pagan a él un salario para que esté trabajando en los",
+            "start": 1201.12
+        },
+        {
+            "end": 1211.73,
+            "text": " fondos indexados, esta es la principal diferencia, por lo tanto es más barato el mantenimiento y",
+            "start": 1206.62
+        },
+        {
+            "end": 1217.86,
+            "text": " operación de un ETF que el de un fondo indexado, este puede parecer un gran contra de los fondos",
+            "start": 1211.73
+        },
+        {
+            "end": 1224.16,
+            "text": " de inversión entonces parecería que la balanza se estaría inclinando hacia los ETFs, pero los",
+            "start": 1217.86
+        },
+        {
+            "end": 1230.8,
+            "text": " fondos indexados como se comportan exactamente igual que los fondos de inversión a nivel fiscal",
+            "start": 1224.16
+        },
+        {
+            "end": 1236.7,
+            "text": " tienen un gran beneficio porque los fondos indexados te permiten diferir tus impuestos,",
+            "start": 1230.9
+        },
+        {
+            "end": 1243.36,
+            "text": " hay una ley que te dice que tú puedes estar exento de pagar impuestos de tus fondos indexados",
+            "start": 1236.7
+        },
+        {
+            "end": 1249.36,
+            "text": " siempre y cuando reinviertas ese dinero en otro fondo de inversión, entonces tú puedes brincar",
+            "start": 1243.4
+        },
+        {
+            "end": 1254.98,
+            "text": " de un fondo de inversión a otro fondo de inversión a otro fondo de inversión y jamás estar pagando",
+            "start": 1249.74
+        },
+        {
+            "end": 1261.34,
+            "text": " impuestos porque estás reinvirtiendo ese dinero, así que este es un gran pero grandísimo beneficio",
+            "start": 1254.98
+        },
+        {
+            "end": 1267.92,
+            "text": " que tienen los fondos indexados a cambio de que el costo de mantenimiento sea bastante elevado",
+            "start": 1261.34
+        },
+        {
+            "end": 1275.11,
+            "text": " y esto nos lleva al siguiente gran punto que es la bolsa de valores, te voy a compartir la",
+            "start": 1269.86
+        },
+        {
+            "end": 1280.4,
+            "text": " analogía con la que yo explico la bolsa de valores y te aseguro que te va a quedar perfectamente claro",
+            "start": 1275.11
+        },
+        {
+            "end": 1284.5,
+            "text": " imagínate que la bolsa de valores es un hipódromo",
+            "start": 1281.06
+        },
+        {
+            "end": 1298.76,
+            "text": " y los caballos de carreras que compiten son las empresas y los jinetes de los caballos son los",
+            "start": 1292.2
+        },
+        {
+            "end": 1306.7,
+            "text": " CEOs, los líderes ejecutivos de las empresas y la taquilla es la casa de bolsa, cuando tú inviertes",
+            "start": 1298.9
+        },
+        {
+            "end": 1314.22,
+            "text": " en acciones de una empresa lo que estás haciendo es apostar por ese caballo confiando en el liderazgo",
+            "start": 1306.72
+        },
+        {
+            "end": 1320.98,
+            "text": " del jinete o sea del CEO de esa empresa y donde compramos las acciones pues mira prácticamente",
+            "start": 1314.34
+        },
+        {
+            "end": 1327.38,
+            "text": " nadie va a las empresas a tocar la puerta y decir oye vende unas acciones de tu empresa en realidad",
+            "start": 1321.1
+        },
+        {
+            "end": 1333.68,
+            "text": " todos lo hacemos a través de una casa de bolsa a la que también se le llama broker que son los",
+            "start": 1327.52
+        },
+        {
+            "end": 1340.32,
+            "text": " intermediarios entre quien venden las acciones y quien las compra, nosotros no podemos comprar",
+            "start": 1333.68
+        },
+        {
+            "end": 1346.51,
+            "text": " acciones en la bolsa de valores, la bolsa de valores no compra ni vende nada, la bolsa de",
+            "start": 1340.44
+        },
+        {
+            "end": 1351.94,
+            "text": " valores es la pista de carreras, en la pista de carreras o sea en la bolsa de valores solo se",
+            "start": 1346.51
+        },
+        {
+            "end": 1358.59,
+            "text": " determina quién gana y quién pierde, nada más allí sucede la fluctuación de los precios de las",
+            "start": 1351.94
+        },
+        {
+            "end": 1365.28,
+            "text": " acciones. Y ahora en la bolsa de valores no solamente compramos acciones y no solamente",
+            "start": 1358.59
+        },
+        {
+            "end": 1372.71,
+            "text": " invertimos en fondos indexados también podemos invertir en materias primas y en divisas, es muy",
+            "start": 1365.3
+        },
+        {
+            "end": 1378.32,
+            "text": " sencillo comprender las materias primas, las materias primas son oro, plata, bronce, cobre,",
+            "start": 1372.71
+        },
+        {
+            "end": 1385.12,
+            "text": " petróleo, paladio, etcétera, si tú compras oro y plata de manera física pues acuérdate que debes",
+            "start": 1378.9
+        },
+        {
+            "end": 1392.23,
+            "text": " proteger debes resguardar el oro y tu plata y eso suele ser bastante costoso y riesgoso pero si lo",
+            "start": 1385.14
+        },
+        {
+            "end": 1397.78,
+            "text": " haces a través de la bolsa de valores pues desde luego que reduces el costo de resguardo y protección",
+            "start": 1392.23
+        },
+        {
+            "end": 1404.98,
+            "text": " y las divisas son las monedas de intercambio que tienen pues todos los países. Ojo dije de intercambio",
+            "start": 1397.9
+        },
+        {
+            "end": 1413.12,
+            "text": " cuidado con esto porque algunos consideran al bitcoin por ejemplo como una divisa y no el bitcoin",
+            "start": 1405.16
+        },
+        {
+            "end": 1418.28,
+            "text": " no ha llegado a ser una divisa porque no ha logrado consolidarse como un instrumento de",
+            "start": 1413.24
+        },
+        {
+            "end": 1423.68,
+            "text": " intercambio es difícil es tardado y es costoso comprar por ejemplo una hamburguesa con bitcoins",
+            "start": 1418.28
+        },
+        {
+            "end": 1429.28,
+            "text": " porque tan sólo la comisión que estás pagando por esa operación en la blockchain pues es muy",
+            "start": 1423.68
+        },
+        {
+            "end": 1435.76,
+            "text": " costosa todavía a lo mejor más adelante no pero todavía no logra ser una divisa las divisas son",
+            "start": 1429.28
+        },
+        {
+            "end": 1441.86,
+            "text": " las monedas oficiales de intercambio de cada país y algunos pues invierten en dólares algunos",
+            "start": 1435.76
+        },
+        {
+            "end": 1448.05,
+            "text": " invierten en euros esperando que estos suban de precio con el tiempo pero mucho cuidado con esto",
+            "start": 1441.92
+        },
+        {
+            "end": 1456.94,
+            "text": " porque recuerda que toda divisa siempre va a tender a su valor real que es cero y por último",
+            "start": 1448.05
+        },
+        {
+            "end": 1462.5,
+            "text": " y con esto vamos a cerrar este curso vamos a comprender rápidamente la diferencia entre invertir",
+            "start": 1456.94
+        },
+        {
+            "end": 1469.3,
+            "text": " y hacer trading una inversión es aquella en donde tú sostienes tu posición a mediano y largo plazo",
+            "start": 1462.5
+        },
+        {
+            "end": 1476.92,
+            "text": " que van desde 3 5 10 20 o hasta 30 años esa es una inversión propiamente dicho una inversión",
+            "start": 1469.36
+        },
+        {
+            "end": 1483.78,
+            "text": " pasiva en cambio el trading es una inversión activa porque requiere de trabajo y las inversiones",
+            "start": 1477.0
+        },
+        {
+            "end": 1489.32,
+            "text": " pasivas no requieren de trabajo ellas están trabajando solitas por ti el trading es una",
+            "start": 1483.84
+        },
+        {
+            "end": 1496.64,
+            "text": " inversión activa requiere de tu trabajo requiere de tu tiempo requiere de tus conocimientos requiere",
+            "start": 1489.4
+        },
+        {
+            "end": 1502.12,
+            "text": " tus habilidades incluso requiere de una hábil gestión emocional en el trading tú haces",
+            "start": 1496.68
+        },
+        {
+            "end": 1508.17,
+            "text": " operaciones veloces incluso hay algo que se llama day trading en donde tú haces operaciones todos",
+            "start": 1502.18
+        },
+        {
+            "end": 1515.6,
+            "text": " los días si tú haces trading en realidad no eres un inversionista eres un comerciante y esto deriva",
+            "start": 1508.17
+        },
+        {
+            "end": 1520.86,
+            "text": " en dos términos muy importantes que debes comprender en realidad son dos fenómenos que",
+            "start": 1515.62
+        },
+        {
+            "end": 1527.4,
+            "text": " debes comprender y es saber exactamente en qué momento estamos viviendo un mercado bajista y",
+            "start": 1520.86
+        },
+        {
+            "end": 1533.56,
+            "text": " cuando hay una corrección que no es lo mismo cuidado con esto el índice estándar en por 500",
+            "start": 1527.4
+        },
+        {
+            "end": 1539.08,
+            "text": " entró por un momento en territorio bajista esta semana al tener una caída de más del 20% desde",
+            "start": 1533.82
+        },
+        {
+            "end": 1544.98,
+            "text": " su máximo histórico en enero una corrección económica es aquella en donde en un mercado",
+            "start": 1539.1
+        },
+        {
+            "end": 1551.56,
+            "text": " alcista los precios pueden bajar precisamente para corregir su valor en cambio el mercado bajista",
+            "start": 1545.0
+        },
+        {
+            "end": 1558.62,
+            "text": " sucede cuando esta pérdida o disminución de valor se da de manera sostenida y prolongada cuando la",
+            "start": 1551.64
+        },
+        {
+            "end": 1565.5,
+            "text": " caída se da de manera consistente y prolongada por más de dos meses ya podemos saber que esto es un",
+            "start": 1558.62
+        },
+        {
+            "end": 1573.42,
+            "text": " mercado bajista y así es como hemos llegado al final de este primer curso de finanzas y economía",
+            "start": 1565.52
+        },
+        {
+            "end": 1580.21,
+            "text": " si llegaste hasta acá te felicito has pasado con 10 simplemente por haber concluido este",
+            "start": 1573.96
+        },
+        {
+            "end": 1588.34,
+            "text": " curso de finanzas y ahora sí me despido pero tú y yo tenemos una cita y nos vemos en el siguiente",
+            "start": 1580.21
+        },
+        {
+            "end": 1589.9,
+            "text": " episodio de finanzas",
+            "start": 1588.34
+        }
+    ]
+}

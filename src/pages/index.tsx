@@ -196,7 +196,7 @@ const  Home: NextPage = () => {
                   size="lg"
                   variant="outline"
                   className="bg-transparent text-white border-2 border-[#4cc9f0] hover:bg-[#4cc9f0] hover:text-[#1d3557] text-lg px-8"
-                  onClick={() => window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')}
+                  onClick={() => window.open('https://youtu.be/hJ9o0FXJpig', '_blank')}
                 >
                   Ver demo <ArrowRight className="ml-2 h-5 w-5" />
                 </Button>

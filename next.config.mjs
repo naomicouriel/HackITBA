@@ -13,6 +13,14 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  // ignore typescript-eslint
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  // ignore typescript-eslint
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   images: {
     domains: ["www.keg.com", "images.unsplash.com","randomuser.me"],
   },

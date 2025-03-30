@@ -9,8 +9,11 @@ En cuanto a la funcionalidad es una app 100% funcional que por limitaciones del 
 
 El proyecto fue pensado para escalar por lo que decidimos hacer menos vistoso el UI y con algunos Bugs pero con la complejidad de la base de datos que amerita que este proyecto con unas horas mas sea 100% funcional. 
 
+
 # Instrucciones para correrlo
 
+Crear archivo .env con los items en .env.example
+ 
 ` npm install `bash
 ` npx prisma db push `bash
 ` npx tsx scripts/fake_info.ts `bash
